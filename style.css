@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+#intro {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+#indices {
+    display: flex;
+    flex-direction: column;
+}
+
+.ligne {
+    display: flex;
+    justify-content: center;
+}
+
+.vrai {
+    color: green;
+}
+
+.faux {
+    color: red;
+}
+
+.mj {
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#formule {
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: black;
+    background-color: white;
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+#cache1 {
+    visibility: hidden;
+    margin-top: 10%;
+}
+
+#cache2 {
+    visibility: hidden;
+}
+
+#boutton {
+    color: black;
+    background-color: white;
+}
